@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="img/tree.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="200">
+	<meta property="og:image:height" content="200">	
+	<meta property="og:title" content="I-Agri"/>
+    <meta property="og:description" content="I-Agri is developed by 4th year students from De La Salle-College of Saint Benilde Manila"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/x-icon" href="img/tree.png">
+
+    <title>I-Agri</title>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="180">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">    
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ms-auto">
+                    <!-- Authentication Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="my-5 page-container">
+        <!--First section About I-Agri with whitebackground -->
+        <section>
+        <br><br><br><br><br><br><br>
+            <div class="container text-center">
+        
+                <div class="d-flex justify-content-center">
+                    
+                    <div class="p-2 bd-highlight">
+                        <img src="img/logo.png" width="300">
+                    </div>
+        
+                    <div class="p-2 bd-highlight w-50" style="text-align:justify;">
+                        I-Agri is developed by 4th year students from De La Salle-College of Saint Benilde Manila. I-Agri is a platform that 
+                        help companies and organizations associated with the agricultural sector in the Philippines in storing, maintaining, 
+                        and keeping their personal records in a secure and organize way. Ranging to different business processes and functions 
+                        such as trade, importation, exportation, and the need for supplies of the products including fresh animal produce, 
+                        vegetables and fruits supplied to various local supermarkets and restaurants.
+                    </div>
+        
+                </div>    
+        
+            </div>
+        
+        </section>
+        
+        <!--Second section What do we do? with background image - slider -->
+        <section style=" 
+            background-image: url('img/coconut.jpg');
+            background-size: cover;
+            text-align: center;">
+        
+            <div class="container-fluid p-5">
+                <div class="mask">
+        
+                <div class="container text-center my-3">
+                <br><br>
+                <h1 class="text-center my-5" style="color:white;">What do we do?</h1>
+        
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner col-10 mx-auto" role="listbox">
+        
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what01.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Collect and present logs of transactions</p>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what07.png" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Mini Inventory System</p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what02.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Automate farm processes</p>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what03.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Dashboard about activities and updates</p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what04.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Present Information and records</p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what05.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Serves as a platform for potential partnerships</p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card feature-product h-100 p-2">
+                                            <div class="card-img my-5">
+                                                <img src="img/what06.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="caption">
+                                                <p class="text-black">Personal page of partners</p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                            <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+        
+                </div>            
+        
+                </div>
+            </div>
+        
+        </section>
+        
+        <!--Third section Vision mission with whitebackground - card -->
+        <section>
+        
+            <div class="container my-5">
+        
+            <h1 class="text-center mb-5">Vision, Mission & Goal</h1>
+        
+                <div class="row text-center mt-5">
+        
+                    <div class="col-lg-4 mb-3 d-flex align-items-stretch justify-content-center">
+                        <div class="card p-2">
+                            <img class="rounded auto" src="img/vision.png" width="180">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Vision</h5>
+                                <p class="card-text mb-4">
+                                    To create useful features and functionalities for farmers that informs and eases their processes and activities
+                                </p>
+                            </div>
+                        </div>
+                    </div>   
+                    
+                    <div class="col-lg-4 mb-3 d-flex align-items-stretch justify-content-center">
+                        <div class="card p-2">
+                            <img class="rounded auto" src="img/mission.png" width="180">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Mission</h5>
+                                <p class="card-text mb-4">
+                                    To enable farm businesses easily adapt and connect to the digital world across the nation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-3 d-flex align-items-stretch justify-content-center">
+                        <div class="card p-2">
+                            <img class="rounded auto" src="img/graph.png" width="180">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Goal</h5>
+                                <p class="card-text mb-4">
+                                    To be a leading platform for farm businesses in maintaining and securing their records
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                    
+            </div>
+        
+        </section>
+           
+        <!--Fourth section Partnerships with background image - alternate -->
+        <section>
+        <br><br><br><br>
+            <div class="container my-5">
+        
+                <h1 class="text-center mb-5">Partnered Companies</h1>
+                
+                <div class="d-flex justify-content-center bd-highlight">
+                    <div class="p-2 m-3 bd-highlight w-50 text-left">
+                        Masalukot Agri Business Corp. (est. 1983) – family corporation; position – General Manager & COO
+                        <br><br> 
+                        <a href="#">
+                            <button class="btn btn-outline pull-left">Learn more</button>	
+                        </a>		
+                    </div>
+                    <div class="p-2 m-3 bd-highlight">
+                            <img src="img/sample.png" class="rounded-circle auto" width="170" height="146">
+                        <br>
+                        <p class="text-center text-uppercase bold">
+                            MASALUKOT AGRI BUSINESS CORP.
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                    
+                <div class="d-flex justify-content-center bd-highlight">
+                    <div class="p-2 m-3 bd-highlight">
+                            <img src="img/sample.png" class="rounded-circle auto" width="170" height="146">
+                        <br>
+                        <p class="text-center text-uppercase bold">
+                            HORTUS FERAX, INC.
+                        </p>                
+                    </div>
+                    <div class="p-2 m-3 bd-highlight w-50 text-right">
+                        Hortus Ferax, Inc. (est. 2016) – private corporation; position – President & COO.
+                        <br><br> 
+                        <a href="#">
+                            <button class="btn btn-outline pull-right">Learn more</button>	
+                        </a>                								
+                    </div>
+                </div>
+                        
+                <br><br>	
+                
+                <div class="d-flex justify-content-center bd-highlight">
+                    <div class="p-2 m-3 bd-highlight w-50 text-left">
+                        Frumentum, Inc. (est. 2017) – private corporation; position Vice President for Production & COO
+                        <br><br> 
+                        <a href="#">
+                            <button class="btn btn-outline pull-left">Learn more</button>	
+                        </a>		
+                    </div>
+                    <div class="p-2 m-3 bd-highlight">
+                            <img src="img/sample.png" class="rounded-circle auto" width="170" height="146">
+                        <br>
+                        <p class="text-center text-uppercase bold">
+                            FRUMENTUM, INC.
+                        </p>
+                    </div>
+                </div>                
+                        
+            </div>
+        <br><br><br><br>
+        </section>
+        
+        <!--Fifth section FAQs with whitebackground -->
+        <section>
+            
+            <h1 class="text-center my-5">Frequently Asked Questions (FAQs)</h1>
+        
+            <div class="container">
+        
+                <div class="accordion" id="accordionExample">
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <i>How do I register an account?</i>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                To register an account, go to the IAGRI homepage and click on register on the top right corner of the system. 
+                                Once clicking register, it will redirect you to the registration page. Fill out the required information and 
+                                select the type of user that would like to register as. Once completing the form, click on sign up, 
+                                then you will be redirected to the IAGRI homepage. Note: Only farm businesses that are willing to make partnerships with our platform 
+                                are allowed to register an account.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i>How can my company be an official partner?</i>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The platform requires the user to pay a Php 1,000 pesos fee before being able to utilize the use of the platform.
+                                From having a social media presence through the platform, to the utilization of the features and functionalities 
+                                of the system such as digitized and automated reports and sheets and the mini inventory system inside the platform.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i>How to edit the company profile, partnerships and its activities?</i>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                To edit the company profile, go to the profile page by clicking the "profile" button on the top right corner of 
+                                the system. Then click the "profile" page on the leftmost part of the system. Lastly, fill out the necessary 
+                                information and click the "save" button. However, it only applies to active users who were verified by the System
+                                Administrators.						
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                <i>How to use the mini inventory management system?</i>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The system allows the users to input products, animals and transactions which will reflect the current stocks and
+                                the total sales acquired from the listed products of the user. The system also allows the users to freely add stocks,
+                                edit, and update all the necessary information regarding to their needs.
+                            </div>
+                        </div>
+                    </div>             
+        
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                <i>How to contact the System Administrators?</i>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Kindly send us a message at iagri.csb@gmail.com.					
+                            </div>
+                        </div>
+                    </div>    
+                    
+        
+        
+        
+                </div>
+            </div>
+        
+        </section>
+    </div>
+
+    <!--Sixth section footer-->
+    <img class="responsive" src="img/grass01.png" style="width: 100%; height: auto; margin-bottom: -20px; min-height: 220px; 
+    min-width: 220px; margin-top: -200px;"> <!-- grass image -->
+        
+    <div class="footer p-5">
+        <div class="container-fluid">
+    
+            <div class="row">
+    
+                <div class="col-lg-4 text-center">
+                    <h1>I-Agri</h1>
+                    <p>
+                        I-Agri is developed by 4th year students from De La Salle-College of Saint Benilde Manila. I-Agri is a platform that 
+                        help companies and organizations associated with the agricultural sector in the Philippines in storing, maintaining, 
+                        and keeping their personal records in a secure and organize way. Ranging to different business processes and functions 
+                        such as trade, importation, exportation, and the need for supplies of the products including fresh animal produce, 
+                        vegetables and fruits supplied to various local supermarkets and restaurants.
+                    </p>
+                </div>
+    
+                <div class="col-lg-4 text-center">
+                    <h1>Contact Us</h1>
+                    <p>send us a message at iagri.csb@gmail.com</p>
+                </div>
+    
+                <div class="col-lg-4 text-center">
+                    <h1>Partner with us now!</h1>
+                    <p>Are you interested on having a partnership with our platform?</p>
+                    <a href="register.html">
+                        <button class="btn btn-outline">
+                            Click here
+                        </button>
+                    </a>
+                </div>
+    
+            </div>
+    
+            <p class="text-center mt-5 bold">All Rights Reserved. I-Agri 2022</p>
+    
+        </div>
+    </div>   
+
+    <script>
+        let items = document.querySelectorAll('.carousel .carousel-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i=1; i<minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+    </script>
+
+    <!-- Bootstrap JS -->	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
